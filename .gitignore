@@ -27,3 +27,30 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### GPT ###
+# Arquivos de compilação Java
+*.class
+
+# Arquivos de build Maven
+target/
+
+# Arquivos de build Gradle
+build/
+
+# Arquivos de configuração
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Logs e arquivos temporários
+*.log
+*.swp
+
+# Arquivos específicos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de dependências e chaves de API
+credentials.properties
